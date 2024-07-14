@@ -16,8 +16,13 @@
     width: 100%;
 }
 
+.input-container label {
+    background-color: #1a1a1a;
+}
+
 .rgb-container {
     display: block;
     margin-top: 4px;
     text-align: center;
+    background-color: #1a1a1a;
 }
