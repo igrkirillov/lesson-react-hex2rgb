@@ -1,5 +1,9 @@
-export function validateHex(hexStr:string): boolean {
+export function validateHex(hexStr: string): boolean {
     return !!hexStr && /[a-f\d]{6}/i.test(hexStr)
+}
+
+export function isFilled(hexStr: string | undefined): boolean {
+    return !!hexStr && hexStr.length >= 6;
 }
 
 export function convertToRGB(hexStr:string): number[] | null {
