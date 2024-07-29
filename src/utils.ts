@@ -1,5 +1,5 @@
 export function validateHex(hexStr: string): boolean {
-    return !!hexStr && /[a-f\d]{6}/i.test(hexStr)
+    return !!hexStr && /^[a-f\d]{6}$/i.test(hexStr)
 }
 
 export function isFilled(hexStr: string | undefined): boolean {
